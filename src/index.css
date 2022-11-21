@@ -30,13 +30,14 @@
   --white-color: #fff;
   --light-grey: #fafafa;
   --medium-grey: #f2f2f2;
-  --light-font: #4d4d4d;
+  --light-font: #4c4c4c;
   --container-shadow: #dcdcdc;
   --divider-color: #d9d9d9;
 }
 
 body {
   font-family: "Galano Grotesque";
+  line-height: 1.5rem;
 }
 
 /* Utility Classes */
