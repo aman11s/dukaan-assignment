@@ -27,6 +27,7 @@
 :root {
   --primary-color: #146eb4;
   --white-color: #fff;
+  --light-grey: #fafafa;
 }
 
 body {
@@ -472,4 +473,46 @@ body {
 
 .ml-6 {
   margin-left: 4rem;
+}
+
+/* Font Sizes */
+
+.fs-xs {
+  font-size: 0.5rem;
+}
+
+.fs-sm {
+  font-size: 0.75rem;
+}
+
+.fs-base {
+  font-size: 1rem;
+}
+
+.fs-lg {
+  font-size: 1.25rem;
+}
+
+.fs-xl {
+  font-size: 1.5rem;
+}
+
+.fs-2xl {
+  font-size: 1.75rem;
+}
+
+.fs-3xl {
+  font-size: 2rem;
+}
+
+.fs-4xl {
+  font-size: 2.25rem;
+}
+
+.fs-5xl {
+  font-size: 2.75rem;
+}
+
+.fs-6xl {
+  font-size: 3rem;
 }
