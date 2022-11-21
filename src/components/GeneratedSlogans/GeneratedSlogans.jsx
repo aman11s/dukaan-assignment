@@ -1,5 +1,5 @@
 import React from "react";
-import { slogansData } from "../../data";
+import { slogansData } from "../../db";
 import { HiOutlineChevronRight } from "react-icons/hi";
 import "./GeneratedSlogans.css";
 
