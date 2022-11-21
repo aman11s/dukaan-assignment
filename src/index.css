@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Galano Grotesque";
+  font-weight: 400;
+  src: url("./assets/fonts/galanogrotesque-regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Galano Grotesque";
+  font-weight: 500;
+  src: url("./assets/fonts/galanogrotesque-medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Galano Grotesque";
+  font-weight: 600;
+  src: url("./assets/fonts/galanogrotesque-semibold.otf") format("opentype");
+}
+
+/* Reset Defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Color Variables */
+:root {
+  --primary-color: #146eb4;
+}
+
+body {
+  font-family: "Galano Grotesque";
+}
