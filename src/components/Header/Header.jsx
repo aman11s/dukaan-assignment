@@ -4,12 +4,12 @@ import logo from "../../assets/logo.svg";
 
 export const Header = () => {
   return (
-    <div className="header pt-2">
-      <div className="header-elem mx-auto">
+    <div className="header pt-3">
+      <div className="header-elem mx-auto max-app-width">
         <img src={logo} alt="logo" />
         <div>
-          <button className="secondary-btn btn mx-2">Sign In</button>
-          <button className="primary-btn btn ml-2">Dukaan for PC</button>
+          <button className="btn link mx-2">Sign In</button>
+          <button className="btn secondary-btn  ml-2">Dukaan for PC</button>
         </div>
       </div>
     </div>

@@ -28,6 +28,10 @@
   --primary-color: #146eb4;
   --white-color: #fff;
   --light-grey: #fafafa;
+  --medium-grey: #f2f2f2;
+  --light-font: #4d4d4d;
+  --container-shadow: #dcdcdc;
+  --divider-color: #d9d9d9;
 }
 
 body {

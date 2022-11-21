@@ -4,27 +4,6 @@
 }
 
 .header-elem {
-  max-width: 70rem;
   display: flex;
   justify-content: space-between;
-}
-
-.btn {
-  font-family: inherit;
-  border: none;
-  padding: 0.8rem;
-  font-weight: 500;
-  font-size: 1.1rem;
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-.primary-btn {
-  background-color: var(--white-color);
-  color: var(--primary-color);
-}
-
-.secondary-btn {
-  background-color: transparent;
-  color: var(--white-color);
 }
