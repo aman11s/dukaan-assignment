@@ -9,7 +9,7 @@ export const SloganMaker = () => {
   return (
     <>
       <section className="slogan-section">
-        <div className="slogan-maker-container max-app-width mx-auto">
+        <div className="slogan-maker-container app-max-width mx-auto">
           <h1 className="fs-4xl">Free slogan maker</h1>
           <p className="light-font-color mt-2 fs-lg">
             Simply enter a term that describes your business, and get up to

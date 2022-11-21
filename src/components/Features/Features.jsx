@@ -6,7 +6,7 @@ export const Features = () => {
   return (
     <>
       <section className="features-section">
-        <div className="features-wrapper max-app-width mx-auto py-5">
+        <div className="features-wrapper app-max-width mx-auto py-5">
           {featuresData.map((feat) => {
             const { id, icon, label, description } = feat;
             return (

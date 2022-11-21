@@ -10,7 +10,7 @@ export const GeneratedSlogans = () => {
         <div className="fs-lg">We have generated 1,023 slogans for “cozy”</div>
         <button className="btn primary-outline-btn">Download all</button>
       </div>
-      <div className="generated-slogans max-app-width">
+      <div className="generated-slogans app-max-width">
         {slogansData.map(({ id, slogan }) => {
           return (
             <div className="slogan" key={id}>

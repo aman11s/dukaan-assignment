@@ -5,7 +5,7 @@ import logo from "../../assets/logo.svg";
 export const Header = () => {
   return (
     <div className="header pt-3">
-      <div className="header-elem mx-auto max-app-width">
+      <div className="header-elem mx-auto app-max-width">
         <img src={logo} alt="logo" />
         <div>
           <button className="btn link mx-2">Sign In</button>
