@@ -11,7 +11,7 @@ export const SloganMaker = () => {
       <section className="slogan-section">
         <div className="slogan-maker-container app-max-width mx-auto">
           <h1 className="fs-4xl">Free slogan maker</h1>
-          <p className="light-font-color mt-2 fs-lg">
+          <p className="light-font-color my-4 fs-lg">
             Simply enter a term that describes your business, and get up to
             1,000 relevant slogans for free.
           </p>
