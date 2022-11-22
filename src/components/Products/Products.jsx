@@ -5,7 +5,7 @@ import "./Products.css";
 export const Products = () => {
   return (
     <>
-      <section className="products-section app-max-width mx-auto py-3">
+      <section className="products-section app-max-width mx-auto py-3 pb-6">
         <h1 className="fs-4xl py-6">Try our other free products</h1>
         <div className="products-wrapper app-max-width">
           {productsData.map((product) => {
