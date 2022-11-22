@@ -5,10 +5,10 @@ import { SloganMaker } from "../SloganMaker/SloganMaker";
 
 export const Main = () => {
   return (
-    <>
+    <main>
       <SloganMaker />
       <Features />
       <Products />
-    </>
+    </main>
   );
 };
