@@ -1,6 +1,7 @@
 import React from "react";
 import { slogansData } from "../../db";
 import { HiOutlineChevronRight } from "react-icons/hi";
+import { Slogan } from "../Slogan/Slogan";
 import "./GeneratedSlogans.css";
 
 export const GeneratedSlogans = () => {
@@ -12,11 +13,7 @@ export const GeneratedSlogans = () => {
       </div>
       <div className="generated-slogans app-max-width">
         {slogansData.map(({ id, slogan }) => {
-          return (
-            <div className="slogan" key={id}>
-              {slogan}
-            </div>
-          );
+          return <Slogan key={id} slogan={slogan} />;
         })}
       </div>
       <hr className="divider my-5" />
