@@ -27,6 +27,11 @@
   cursor: pointer;
 }
 
+.footer-links > li:hover,
+.social-handle-links > li:hover {
+  text-decoration: underline;
+}
+
 .flag-wrapper {
   display: flex;
   align-items: center;
