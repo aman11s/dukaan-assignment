@@ -11,7 +11,7 @@ export const Footer = () => {
           <img src={logo} alt="logo" />
 
           <ul className="footer-links fs-lg">
-            <li>Contacts</li>
+            <li>Contact</li>
             <li>FAQ's</li>
           </ul>
 
