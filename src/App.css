@@ -43,5 +43,7 @@
 }
 
 .divider {
-  border: 1px solid var(--divider-color);
+  border: none;
+  height: 1px;
+  background-color: var(--divider-color);
 }
