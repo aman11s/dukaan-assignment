@@ -6,4 +6,5 @@
 
 .product {
   max-width: 22rem;
+  cursor: pointer;
 }
